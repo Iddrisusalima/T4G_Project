@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page with Navigation</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Tech-Fusion</a>
+            <ul class="nav-links">
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <header class="header">
+        <h1>WELCOME TO TECH-FUSION</h1>
+        <p>
+            JOIN OUR COMMUNITY AND EXPERIENCE THE BEST SERVICES TAILORED JUST FOR YOU. 
+            CREATE YOUR ACCOUNT TODAY AND START ENJOYING A WORLD OF OPPORTUNITIES!
+        </p>
+    </header>
+
+    <section class="signup-box">
+        <h2>CREATE AN ACCOUNT</h2>
+        <div class="social-icons">
+            <span>f</span>
+            <span>in</span>
+            <span>g+</span>
+        </div>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="username">USERNAME:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+            </div>
+            <div class="input-group">
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="input-group">
+                <label for="password">PASSWORD:</label>
+                <input type="password" id="password" name="password" placeholder="Create your password">
+
+                <div class="actions">
+                    <div>
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">REMEMBER</label>
+                    </div>
+                    <a href="#" class="forgot-password">FORGET PASSWORD?</a>
+                </div>
+            </div>
+            <button type="submit" class="sign-up-button">SIGN UP</button>
+        </form>
+    </section>
+</body>
+</html>

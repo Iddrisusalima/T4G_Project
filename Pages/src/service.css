@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: hsl(209, 92%, 50%);
+    background: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+header .main-nav {
+    margin: 0.5rem 0;
+}
+
+header .main-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+header .main-nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #555;
+}
+
+.services {
+    padding: 2rem 0;
+    text-align: center;
+    background: #fff;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.service-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.service-card p {
+    padding: 0 1rem 1.5rem;
+    color: #666;
+}
